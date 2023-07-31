@@ -11,7 +11,7 @@ import { StatusBar } from "expo-status-bar";
 import { FontAwesome5 } from "@expo/vector-icons";
 import Constants from "expo-constants";
 
-export default function LogIn() {
+export default function LogIn1() {
   return (
     <SafeAreaView style={styles.container}>
       {/* https://docs.expo.io/versions/latest/sdk/status-bar */}
