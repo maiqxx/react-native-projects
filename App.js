@@ -10,8 +10,6 @@ import { Text, ListItem } from "react-native-elements";
 import Constants from "expo-constants";
 import { PROJECT_LIST } from './ProjectList'
 
-
-
 export default function App() {
   const [projectIndex, setProjectIndex] = useState(null);
 
@@ -45,14 +43,14 @@ export default function App() {
     return (
       <SafeAreaView style={styles.container}>
         <Text h4 style={styles.heading}>
-          React Native Expo Examples
+          React Native Projects
         </Text>
   
         <ScrollView>
           {PROJECT_LIST.map((l, i) => (
             <ListItem key={i} bottomDivider onPress={() => setProjectIndex(i)}>
               <View>
-                <Text>Level {l.level}</Text>
+                <Text>Project {l.level}</Text>
               </View>
   
               <ListItem.Content>
