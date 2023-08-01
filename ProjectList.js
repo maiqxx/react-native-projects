@@ -10,6 +10,7 @@ import Light from './src/5-Lights/Light';
 import TrafficLight from './src/5-Lights/TrafficLight';
 import ScanQrCode from './src/6-ScanQRCode/ScanQRCode';
 import InstagramFeed from './src/7-InstagramFeed/InstagramFeed';
+import RockPaperScissors from './src/8-RockPaperScissors/RockPaperScissors';
 
 export const PROJECT_LIST = [
     {
@@ -61,6 +62,11 @@ export const PROJECT_LIST = [
         name: "Instagram Feed",
         level: 7,
         component: <InstagramFeed />,
+      },
+      {
+        name: "Rock, Paper, Scissors Game",
+        level: 7,
+        component: <RockPaperScissors />,
       },
 
 
