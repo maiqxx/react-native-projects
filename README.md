@@ -1,2 +1,1 @@
-# React Native Small Projects (my practices)
-
+# React Native Small Projects
