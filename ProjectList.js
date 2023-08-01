@@ -12,6 +12,7 @@ import ScanQrCode from './src/6-ScanQRCode/ScanQRCode';
 import InstagramFeed from './src/7-InstagramFeed/InstagramFeed';
 import RockPaperScissors from './src/8-RockPaperScissors/RockPaperScissors';
 import Stopwatch from './src/9-Stopwatch/Stopwatch';
+import BMICalculator from './src/10-BMICalculator/BMICalculator'; 
 
 export const PROJECT_LIST = [
     {
@@ -74,10 +75,11 @@ export const PROJECT_LIST = [
         level: 9,
         component: <Stopwatch />,
       },
-
-
-
-
+      {
+        name: "BMI Calculator",
+        level: 10,
+        component: <BMICalculator />,
+      },
 
 
 ];
