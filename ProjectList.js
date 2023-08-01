@@ -13,6 +13,7 @@ import InstagramFeed from './src/7-InstagramFeed/InstagramFeed';
 import RockPaperScissors from './src/8-RockPaperScissors/RockPaperScissors';
 import Stopwatch from './src/9-Stopwatch/Stopwatch';
 import BMICalculator from './src/10-BMICalculator/BMICalculator'; 
+import MusicPlayer from './src/11-MusicPlayer/MusicPlayer';
 
 export const PROJECT_LIST = [
     {
@@ -80,6 +81,12 @@ export const PROJECT_LIST = [
         level: 10,
         component: <BMICalculator />,
       },
+      {
+        name: "Music Player",
+        level: 11,
+        component: <MusicPlayer />,
+      },
+
 
 
 ];
