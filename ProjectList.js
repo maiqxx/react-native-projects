@@ -7,6 +7,7 @@ import LogIn1 from './src/3-LogInScreens/LogIn1';
 import FacebookLogIn from './src/3-LogInScreens/FacebookLogIn';
 import RegisterForm from './src/4-Forms/RegistrationForm1/RegisterForm';
 import Light from './src/5-Lights/Light';
+import TrafficLight from './src/5-Lights/TrafficLight';
 
 export const PROJECT_LIST = [
     {
@@ -40,9 +41,14 @@ export const PROJECT_LIST = [
         component: <RegisterForm />,
       },
       {
-        name: "Lights",
+        name: "Light",
         level: 5,
         component: <Light />,
+      },
+      {
+        name: "Traffic Light",
+        level: 5,
+        component: <TrafficLight />,
       },
 
 
