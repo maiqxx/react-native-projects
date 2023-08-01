@@ -6,6 +6,7 @@ import ContactList from './src/2-ContactList/ContactList';
 import LogIn1 from './src/3-LogInScreens/LogIn1';
 import FacebookLogIn from './src/3-LogInScreens/FacebookLogIn';
 import RegisterForm from './src/4-Forms/RegistrationForm1/RegisterForm';
+import Light from './src/5-Lights/Light';
 
 export const PROJECT_LIST = [
     {
@@ -38,6 +39,12 @@ export const PROJECT_LIST = [
         level: 4,
         component: <RegisterForm />,
       },
+      {
+        name: "Lights",
+        level: 5,
+        component: <Light />,
+      },
+
 
 
 
