@@ -5,6 +5,7 @@ import HelloWorld2 from '././src/1-HelloWorld/HelloWorld2';
 import ContactList from './src/2-ContactList/ContactList';
 import LogIn1 from './src/3-LogInScreens/LogIn1';
 import FacebookLogIn from './src/3-LogInScreens/FacebookLogIn';
+import RegisterForm from './src/4-Forms/RegistrationForm1/RegisterForm';
 
 export const PROJECT_LIST = [
     {
@@ -31,6 +32,11 @@ export const PROJECT_LIST = [
         name: "Facebook Log In",
         level: 3,
         component: <FacebookLogIn />,
+      },
+      {
+        name: "Forms",
+        level: 4,
+        component: <RegisterForm />,
       },
 
 
