@@ -8,6 +8,8 @@ import FacebookLogIn from './src/3-LogInScreens/FacebookLogIn';
 import RegisterForm from './src/4-Forms/RegistrationForm1/RegisterForm';
 import Light from './src/5-Lights/Light';
 import TrafficLight from './src/5-Lights/TrafficLight';
+import ScanQrCode from './src/6-ScanQRCode/ScanQRCode';
+import InstagramFeed from './src/7-InstagramFeed/InstagramFeed';
 
 export const PROJECT_LIST = [
     {
@@ -49,6 +51,16 @@ export const PROJECT_LIST = [
         name: "Traffic Light",
         level: 5,
         component: <TrafficLight />,
+      },
+      {
+        name: "QR Code Scanner",
+        level: 6,
+        component: <ScanQrCode />,
+      },
+      {
+        name: "Instagram Feed",
+        level: 7,
+        component: <InstagramFeed />,
       },
 
 
