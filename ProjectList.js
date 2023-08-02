@@ -15,6 +15,7 @@ import Stopwatch from './src/9-Stopwatch/Stopwatch';
 import BMICalculator from './src/10-BMICalculator/BMICalculator'; 
 import MusicPlayer from './src/11-MusicPlayer/MusicPlayer';
 import WorldwideNews from './src/12-News/WorldwideNews';
+import Pokedex from './src/13-Pokedex/Pokedex';
 
 export const PROJECT_LIST = [
     {
@@ -92,6 +93,12 @@ export const PROJECT_LIST = [
         level: 12,
         component: <WorldwideNews />,
       },
+      {
+        name: "Pokemon",
+        level: 13,
+        component: <Pokedex />,
+      },
+
 
 
 
