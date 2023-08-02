@@ -14,6 +14,7 @@ import RockPaperScissors from './src/8-RockPaperScissors/RockPaperScissors';
 import Stopwatch from './src/9-Stopwatch/Stopwatch';
 import BMICalculator from './src/10-BMICalculator/BMICalculator'; 
 import MusicPlayer from './src/11-MusicPlayer/MusicPlayer';
+import WorldwideNews from './src/12-News/WorldwideNews';
 
 export const PROJECT_LIST = [
     {
@@ -85,6 +86,11 @@ export const PROJECT_LIST = [
         name: "Music Player",
         level: 11,
         component: <MusicPlayer />,
+      },
+      {
+        name: "Worldwide News",
+        level: 12,
+        component: <WorldwideNews />,
       },
 
 
