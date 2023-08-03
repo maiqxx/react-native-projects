@@ -11,5 +11,6 @@
 ### 9. Stopwatch
 ### 10. BMI Calculator
 ### 11. Music Player
+### 12. News
 ### 13. Pokedex
 
