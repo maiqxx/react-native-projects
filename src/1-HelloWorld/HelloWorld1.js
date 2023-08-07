@@ -4,12 +4,12 @@ import React from 'react'
 export default function HelloWorld1() {
   return (
     // https://reactnative.dev/docs/view
-    <View
+    <View 
       style={{
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "#3498db",
+        backgroundColor: "#7579ff",
       }}
     >
       {/* https://reactnative.dev/docs/text */}
@@ -27,6 +27,7 @@ export default function HelloWorld1() {
   );
   
 }
+
 
 
 
