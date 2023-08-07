@@ -16,6 +16,8 @@ import BMICalculator from './src/10-BMICalculator/BMICalculator';
 import MusicPlayer from './src/11-MusicPlayer/MusicPlayer';
 import WorldwideNews from './src/12-News/WorldwideNews';
 import Pokedex from './src/13-Pokedex/Pokedex';
+import OnboardingScreen from './src/14-OnboardingScreen/OnboardingScreen';
+
 
 export const PROJECT_LIST = [
     {
@@ -97,6 +99,11 @@ export const PROJECT_LIST = [
         name: "Pokemon",
         level: 13,
         component: <Pokedex />,
+      },
+      {
+        name: "Onboarding Screen",
+        level: 14,
+        component: <OnboardingScreen />,
       },
 
 
