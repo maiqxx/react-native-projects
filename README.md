@@ -15,10 +15,10 @@
 13. Pokedex
 14. Onboarding Screen
 
-
+----------------------------------------------------------------------
 ### 🚀 Installation
 
-Clone the my repo:
+Clone this repo:
 ```
 git clone https://github.com/maiqxx/react-native-projects.git
 ```
@@ -32,7 +32,7 @@ Install packages:
 ```
 npm install
 ```
-
+----------------------------------------------------------------------
 ### 📝 Notes and Resources
 - [React Native Guides](https://reactnative.dev/docs/getting-started "React Native Guides")
 - [Expo Docs](https://docs.expo.dev/index.html "Expo Docs")
