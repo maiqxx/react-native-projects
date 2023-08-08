@@ -23,6 +23,11 @@ Clone the my repo:
 git clone https://github.com/maiqxx/react-native-projects.git
 ```
 
+Go to its directory:
+```
+cd react-native-projects
+```
+
 Install packages:
 
 ```
