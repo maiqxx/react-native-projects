@@ -1,8 +1,8 @@
 import { StyleSheet, Platform } from "react-native";
 import Constants from "expo-constants";
 
-const HEADER_BACKGROUND = "#3498db";
-const CONTENT_BACKGROUND = "#f9f9f9";
+const HEADER_BACKGROUND = "#33658a";
+const CONTENT_BACKGROUND = "#fffffa";
 
 export const styles = StyleSheet.create({
   topSafeArea: {
@@ -52,7 +52,7 @@ export const styles = StyleSheet.create({
   },
   button: {
     marginTop: 20,
-    backgroundColor: "#2980b9",
+    backgroundColor: "#33658a",
     padding: 15,
     borderRadius: 15,
   },
