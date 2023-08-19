@@ -66,7 +66,7 @@ const TEXT = {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#b0006d",
+    backgroundColor: "#0d5c63",
     paddingTop: Constants.statusBarHeight,
   },
   content: {
@@ -111,7 +111,7 @@ const styles = StyleSheet.create({
   buttonLogin: {
     height: 50,
     borderRadius: 25,
-    backgroundColor: "#8d015a",
+    backgroundColor: "#44a1a0",
     justifyContent: "center",
     marginTop: 15,
   },

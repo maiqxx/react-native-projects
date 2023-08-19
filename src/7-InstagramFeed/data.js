@@ -18,7 +18,7 @@ export const profile = {
     {
       id: 3,
       avatar: require("../../assets/instagram-feed/avatar3.jpg"),
-      name: "thangflycomicsoffical",
+      name: "0000",
       isSeen: true,
     },
     {
@@ -36,7 +36,7 @@ export const profile = {
       name: "5.min.craft",
       image: require("../../assets/instagram-feed/img1.jpg"),
       likeCount: "23",
-      date: "1 giờ trước",
+      date: "1 hours ago",
     },
     {
       id: 2,
@@ -44,7 +44,7 @@ export const profile = {
       name: "5.min.craft",
       image: require("../../assets/instagram-feed/img2.jpg"),
       likeCount: "46",
-      date: "3 giờ trước",
+      date: "3 hours ago",
     },
     {
       id: 3,
@@ -52,7 +52,7 @@ export const profile = {
       name: "thangflycomicsoffical",
       image: require("../../assets/instagram-feed/img3.jpg"),
       likeCount: "72",
-      date: "8 giờ trước",
+      date: "8 hours ago",
     },
     {
       id: 4,
@@ -60,7 +60,7 @@ export const profile = {
       name: "teammonsterbox",
       image: require("../../assets/instagram-feed/img4.jpg"),
       likeCount: "19",
-      date: "1 ngày trước",
+      date: "1 day ago",
     },
     {
       id: 5,
@@ -68,7 +68,7 @@ export const profile = {
       name: "teammonsterbox",
       image: require("../../assets/instagram-feed/img5.jpg"),
       likeCount: "12",
-      date: "2 ngày trước",
+      date: "2 days ago",
     },
   ];
   
