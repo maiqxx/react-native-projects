@@ -55,7 +55,7 @@ export const styles = StyleSheet.create({
   },
   primaryControlIcon: {
     fontSize: 50,
-    color: "#f27637",
+    color: "#1FDF64",
     marginHorizontal: 25,
   },
   secondaryControlIcon: {
