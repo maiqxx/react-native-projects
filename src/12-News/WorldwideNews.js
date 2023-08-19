@@ -13,7 +13,7 @@ import { getNews } from "./api";
 import Article from "./Article";
 
 const PAGE_SIZE = 20;
-const PRIMARY_COLOR = "#e74c3c";
+const PRIMARY_COLOR = "#008dd5";
 
 export default function WorldwideNews() {
   const [isLoading, setLoading] = useState(true);
@@ -118,6 +118,6 @@ const styles = StyleSheet.create({
   },
   articleSeparator: {
     borderBottomWidth: 1,
-    borderBottomColor: "#ed7669",
+    borderBottomColor: "#008dd5",
   },
 });
