@@ -1,39 +1,53 @@
 export const PLAY_LIST = [
     {
       sourceUri:
-        "https://github.com/robinhuy/robinhuy/blob/master/musics/hoa-hai-duong.mp3?raw=true",
-      name: "Hoa Hải Đường",
+        "https://github.com/maiqxx/music/blob/main/music/BTS-DOPE.mp3?raw=true",
+      name: "Dope",
       coverImage:
-        "https://user-images.githubusercontent.com/12640832/100078185-d4224880-2e75-11eb-8cc0-e09b3dce7c7a.jpg",
-      singer: "Jack",
-      duration: 229632,
+        "https://github.com/maiqxx/music/blob/main/imgs/bts-dope.png",
+      singer: "BTS",
+      duration: 240000,
     },
+
     {
       sourceUri:
-        "https://github.com/robinhuy/robinhuy/blob/master/musics/ai-mang-co-don-di.mp3?raw=true",
-      name: "Ai Mang Cô Đơn Đi",
+        "https://github.com/maiqxx/music/blob/main/music/BTS-_'247_Heaven'.mp3?raw=true",
+      name: "24/7 = Heaven",
       coverImage:
-        "https://user-images.githubusercontent.com/12640832/100081249-637d2b00-2e79-11eb-924b-0b4cdd4e1f9a.jpg",
-      singer: "K-ICM, APJ",
-      duration: 221231,
+        "https://github.com/maiqxx/music/blob/main/imgs/bts-247_heaven.png",
+      singer: "BTS",
+      duration: 207600,
     },
+
     {
       sourceUri:
-        "https://github.com/robinhuy/robinhuy/blob/master/musics/bong-hoa-dep-nhat.mp3?raw=true",
-      name: "Bông Hoa Đẹp Nhất",
+        "https://github.com/maiqxx/music/blob/main/music/BTS-_I_NEED_U.mp3?raw=true",
+      name: "I NEED U",
       coverImage:
-        "https://user-images.githubusercontent.com/12640832/100080805-d76b0380-2e78-11eb-9aad-648e5cd1749e.jpg",
-      singer: "Quân A.P",
-      duration: 315312,
+        "https://github.com/maiqxx/music/blob/main/imgs/bts-i_need_u.png",
+      singer: "BTS",
+      duration: 201600,
     },
+
     {
       sourceUri:
-        "https://github.com/robinhuy/robinhuy/blob/master/musics/thien-dang.mp3?raw=true",
-      name: "Thiên Đàng",
+        "https://github.com/maiqxx/music/blob/main/music/BTS-_LOVE_MYSELF.mp3?raw=true",
+      name: "Answer: Love Myself",
       coverImage:
-        "https://user-images.githubusercontent.com/12640832/100080888-f10c4b00-2e78-11eb-931c-74272c77cad4.jpg",
-      singer: "Wowy, JoliPoli",
-      duration: 232200,
+        "https://github.com/maiqxx/music/blob/main/imgs/bts-love_myself.png",
+      singer: "BTS",
+      duration: 247200,
     },
+
+    {
+      sourceUri:
+        "https://github.com/maiqxx/music/blob/main/music/BTS-_SPRING_DAY.mp3?raw=true",
+      name: "Spring Day",
+      coverImage:
+        "https://github.com/maiqxx/music/blob/main/imgs/bts-spring_day.png",
+      singer: "BTS",
+      duration: 260400,
+    },
+
   ];
   
