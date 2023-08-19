@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
     resizeMode: "contain",
     width: "100%",
     height: null,
-    aspectRatio: 750 / 460, // Image ratio
+    aspectRatio: 750 / 460, 
   },
   container: {
     flex: 1,
