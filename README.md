@@ -35,5 +35,15 @@ npm install
 ----------------------------------------------------------------------
 ### 📝 Notes and Resources
 - [React Native Guides](https://reactnative.dev/docs/getting-started "React Native Guides")
+- [ScrollView](https://reactnative.dev/docs/scrollview)
+- [Dimensions](https://reactnative.dev/docs/dimensions)
+- [Built-in React Hooks](https://react.dev/reference/react)
+- [Switch](https://reactnative.dev/docs/switch)
+- [Platform-Specific Code](https://reactnative.dev/docs/platform-specific-code)
 - [Expo Docs](https://docs.expo.dev/index.html "Expo Docs")
+- [Yup](https://github.com/jquense/yup)
+- [react-native-animatable](https://github.com/oblador/react-native-animatable)
+
+
+
 
