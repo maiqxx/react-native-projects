@@ -1,5 +1,8 @@
 # Firebase Realtime Database Set Up
 
+This is the set up of my firebase configuration. I named the file `config.js`. I included it `.gitignore` because you need to make one for your own.
+
+```
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import firebase from 'firebase/compat/app';
@@ -24,3 +27,4 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 
 export const db = getDatabase(app);
+```
