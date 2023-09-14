@@ -17,6 +17,7 @@ import MusicPlayer from './src/11-MusicPlayer/MusicPlayer';
 import WorldwideNews from './src/12-News/WorldwideNews';
 import Pokedex from './src/13-Pokedex/Pokedex';
 import OnboardingScreen from './src/14-OnboardingScreen/OnboardingScreen';
+import SimpleCRUD from './src/15-CRUD/RealtimeDB/SimpleCRUD';
 
 
 export const PROJECT_LIST = [
@@ -104,6 +105,11 @@ export const PROJECT_LIST = [
         name: "Onboarding Screen",
         level: 14,
         component: <OnboardingScreen />,
+      },
+      {
+        name: "Simple CRUD",
+        level: 14,
+        component: <SimpleCRUD />,
       },
 
 
