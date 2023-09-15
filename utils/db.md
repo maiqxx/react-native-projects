@@ -1,8 +1,11 @@
 # Firebase Realtime Database Set Up
 
-This is the set up of my firebase configuration. I named the file `config.js`. I included it `.gitignore` because you need to make one for your own.
+This is the set up of my firebase configuration. I named the file `config.js`. I included it `.gitignore` because you need to make one for your own. There are different approach:
 
+1. Tutorial: https://www.youtube.com/watch?v=q1bxyyKh3Dc
 ```
+//config.js
+
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import firebase from 'firebase/compat/app';
@@ -27,4 +30,33 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 
 export const db = getDatabase(app);
+```
+
+----------------------------------------------------
+
+2. Tutorial: https://www.youtube.com/watch?v=3GzN4KFEf7c&t=40s
+```
+//config1.js
+
+import firebase from 'firebase/compat/app';
+import { getDatabase } from 'firebase/database';
+
+const firebaseConfig = {
+  apiKey: "YOUR_API_KEY",
+  authDomain: "AUTH_DOMAIN",
+  databaseURL: "DATABASE_URL",
+  projectId: "PROJECT_ID",
+  storageBucket: "STORAGE_BUCKET",
+  messagingSenderId: "MESSAGING_SENDER_ID",
+  appId: "API_ID"
+}
+
+if (firebase.apps.length === 0){
+    firebase.initializeApp(firebaseConfig);
+}
+
+const db = getDatabase();
+
+export { db };
+
 ```

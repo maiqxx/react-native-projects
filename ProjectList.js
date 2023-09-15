@@ -18,6 +18,7 @@ import WorldwideNews from './src/12-News/WorldwideNews';
 import Pokedex from './src/13-Pokedex/Pokedex';
 import OnboardingScreen from './src/14-OnboardingScreen/OnboardingScreen';
 import SimpleCRUD from './src/15-CRUD/RealtimeDB/SimpleCRUD';
+import AnotherCRUD from './src/15-CRUD/RealtimeDB/AnotherCRUD';
 
 
 export const PROJECT_LIST = [
@@ -108,8 +109,13 @@ export const PROJECT_LIST = [
       },
       {
         name: "Simple CRUD",
-        level: 14,
+        level: 15,
         component: <SimpleCRUD />,
+      },
+      {
+        name: "Another CRUD",
+        level: 15,
+        component: <AnotherCRUD />,
       },
 
 
