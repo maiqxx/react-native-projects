@@ -17,7 +17,9 @@ import {
   
     // Function to add data to Firebase Realtime Database
     const createData = () => {
-      set(ref(db, "posts/" + "newPosts/" + title), {
+
+      //You can make <set(ref(db, "posts/" + "newPosts/" + title)> for another category
+      set(ref(db, "posts/" + title), {
         title: title,
         body: body,
       });
@@ -69,8 +71,8 @@ import {
         <Text style={styles.header}>Fetch Data</Text>
         {items.map((item) => {
           return (
-            <View key={item.id}>
-              <Text>{item.title}</Text>
+            <View key={item.id} style={styles.itemContainer}>
+              <Text style={styles.titleText}>{item.title}</Text>
               <Text>{item.body}</Text>
             </View>
           );
@@ -112,5 +114,15 @@ import {
       fontWeight: "bold",
       marginBottom: 10,
     },
+    itemContainer:{
+      backgroundColor: '#ccd6eb',
+      marginBottom: 10,
+      padding: 10,
+      borderRadius: 10,
+    },
+    titleText:{
+      fontWeight: 'bold',
+      marginBottom: 5,
+    }
   });
   
