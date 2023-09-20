@@ -5,6 +5,7 @@ import {
     TextInput,
     Button,
     StatusBar,
+    TouchableOpacity,
   } from "react-native";
   import React, { useState, useEffect } from "react";
   import { db } from "../../../utils/config1";
@@ -44,6 +45,16 @@ import {
       });
     }, []); // Add an empty dependency array to run this effect only once
   
+    const updateData = () =>{
+      set(ref(db, "posts/" + title), {
+        title: title,
+        body: body,
+      });
+      setTitle("");
+      setBody("");
+      alert("Data updated!");
+    }
+
     return (
       <View style={styles.container}>
         <StatusBar style="auto" />
@@ -71,9 +82,11 @@ import {
         <Text style={styles.header}>Fetch Data</Text>
         {items.map((item) => {
           return (
-            <View key={item.id} style={styles.itemContainer}>
+            <View key={item.id}>
+              <TouchableOpacity style={styles.itemContainer}>
               <Text style={styles.titleText}>{item.title}</Text>
               <Text>{item.body}</Text>
+              </TouchableOpacity>
             </View>
           );
         })}

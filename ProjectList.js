@@ -20,7 +20,6 @@ import OnboardingScreen from './src/14-OnboardingScreen/OnboardingScreen';
 import SimpleCRUD from './src/15-CRUD/RealtimeDB/SimpleCRUD';
 import AnotherCRUD from './src/15-CRUD/RealtimeDB/AnotherCRUD';
 
-
 export const PROJECT_LIST = [
     {
         name: "Hello World 1",
@@ -117,7 +116,6 @@ export const PROJECT_LIST = [
         level: 15,
         component: <AnotherCRUD />,
       },
-
 
 
 
