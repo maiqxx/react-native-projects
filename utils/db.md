@@ -4,7 +4,7 @@ This is the set up of my firebase configuration. I named the file `config.js`. I
 
 1. Tutorial: https://www.youtube.com/watch?v=q1bxyyKh3Dc
 ```
-//config.js
+//config.js [Simple CRUD]
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
@@ -36,7 +36,7 @@ export const db = getDatabase(app);
 
 2. Tutorial: https://www.youtube.com/watch?v=3GzN4KFEf7c&t=40s
 ```
-//config1.js
+//config1.js [Another CRUD]
 
 import firebase from 'firebase/compat/app';
 import { getDatabase } from 'firebase/database';
@@ -59,4 +59,30 @@ const db = getDatabase();
 
 export { db };
 
+```
+
+----------------------------------------------------
+3. 
+```
+//config2.js [Image Upload]
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/firestore';
+import 'firebase/compat/auth';
+import 'firebase/compat/storage';
+
+const firebaseConfig = {
+    apiKey: "YOUR_API_KEY",
+    authDomain: "AUTH_DOMAIN",
+    databaseURL: "DATABASE_URL",
+    projectId: "PROJECT_ID",
+    storageBucket: "STORAGE_BUCKET",
+    messagingSenderId: "MESSAGING_SENDER_ID",
+    appId: "API_ID"
+};
+
+if (!firebase.apps.length){
+    firebase.initializeApp(firebaseConfig);
+}
+
+export {firebase};
 ```
