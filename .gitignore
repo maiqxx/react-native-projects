@@ -35,5 +35,6 @@ yarn-error.*
 *.tsbuildinfo
 
 # Firebase config
-config.js
-config1.js
+# config.js
+# config1.js
+# config2.js
