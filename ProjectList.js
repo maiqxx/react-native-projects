@@ -19,6 +19,7 @@ import Pokedex from './src/13-Pokedex/Pokedex';
 import OnboardingScreen from './src/14-OnboardingScreen/OnboardingScreen';
 import SimpleCRUD from './src/15-CRUD/RealtimeDB/SimpleCRUD';
 import AnotherCRUD from './src/15-CRUD/RealtimeDB/AnotherCRUD';
+import ImageUpload from './src/15-CRUD/Storage/ImageUpload';
 
 export const PROJECT_LIST = [
     {
@@ -115,6 +116,11 @@ export const PROJECT_LIST = [
         name: "Another CRUD",
         level: 15,
         component: <AnotherCRUD />,
+      },
+      {
+        name: "Image Upload",
+        level: 15,
+        component: <ImageUpload />,
       },
 
 
