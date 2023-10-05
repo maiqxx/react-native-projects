@@ -20,6 +20,7 @@ import OnboardingScreen from './src/14-OnboardingScreen/OnboardingScreen';
 import SimpleCRUD from './src/15-CRUD/RealtimeDB/SimpleCRUD';
 import AnotherCRUD from './src/15-CRUD/RealtimeDB/AnotherCRUD';
 import ImageUpload from './src/15-CRUD/Storage/ImageUpload';
+import DropdownComponent from './src/16-ReactNativeComponents/1-DropdownComponent/DropdownComponent'
 
 export const PROJECT_LIST = [
     {
@@ -121,6 +122,11 @@ export const PROJECT_LIST = [
         name: "Image Upload",
         level: 15,
         component: <ImageUpload />,
+      },
+      {
+        name: "Dropdown Component",
+        level: 16,
+        component: <DropdownComponent />,
       },
 
 
