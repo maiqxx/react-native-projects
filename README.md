@@ -15,6 +15,7 @@
 13. Pokedex
 14. Onboarding Screen
 15. CRUD
+16. Components
 
 ----------------------------------------------------------------------
 ### 🚀 Installation
